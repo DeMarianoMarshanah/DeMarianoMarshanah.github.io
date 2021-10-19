@@ -5,7 +5,7 @@
  }
  table {
     width: 600px; }
- }
+ 
   table {background-color: red; }
   table, tr, td, th {
   border: 2px solid yellow;  
