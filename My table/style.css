@@ -1,18 +1,18 @@
  body {
-    background:green;
-    font-family:Arial, Helvetica, sans serif;
-    text-transform:uppercase;
+ background:green;
+ font-family:Arial, Helvetica, sans serif;
+ text-transform:uppercase;
 }
 
 table {
     width: 600px; }
 }
 table, tr, td, th {
-    border:1px red;
-    border-collapse: collapse;
-    text-allign: center;
-    padding: 5px;
-    margin: 0;
+ border: 1px solid lightgray;  
+ border-collapse: collapse;
+ text-allign: center;
+ padding: 5px;
+ margin: 0;
 }
 Img { width: 100px; }
 
