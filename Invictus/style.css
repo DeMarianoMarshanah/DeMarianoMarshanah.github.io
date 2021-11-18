@@ -1,22 +1,31 @@
-.pclass { text-align:center; 
- text-family: Arial,Helvetica, sans-serif; 
- font-size: 20px }
-}
-.pitalics {
-  font-style: Italic;
-  font-family: bold;
-}
-h1, h3, h4 {
-  text-align: center;
-  text-transform: none;
-  font-family: OCR A Std,monospace;
+.pclass { text-align:center; text-family: Arial,Helvetica, sans-serif; font-size: 20px }
+
+.pitalics { 
+font-style: Italic;
+font-family: bold;
 }
 
-.about {
-  font-size 20px
+body { margin: 0 auto;
+    display: block;
 }
 
-body {
-  padding: 15px;
-  background-color:lightblue;
+.container {
+    max-width: 400px;
+    margin:auto;
 }
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 { 
+    margin: 30px auto 0; 
+    text-transform: uppercase;
+}
+
+h3 { margin: 5px auto; font-size: smaller;}
+h4 { margin-bottom: 3px; text-transform: uppercase;}
+.author_desc { text-align: justify; font-size:smaller}
+.source { background-color:lightblue; padding: 0 10px; color: #fff; text-decoration: none;}
