@@ -5,7 +5,7 @@
 * {
    box-sizing: border-box;
 }
-.item {
+.Item {
   border: black solid 1px;
   padding: 10px 10px 10px 10px;
 }
