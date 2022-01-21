@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header{
+  height: 200x;
+  background-color: darkviolet;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2%;
+  padding-left: 2%; 
+}
+nav ul{
+  flex: 1;
+  text-align: right;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 0px 25px;
+}
+nav ul li a{
+   color: 262728;
+   text-decoration: none;
+   font-size: 15px;
+   font-weight: bold;
+}
+nav ul li a:hover{
+  color: #00bf9f;
+  transition: .3s;
+}
