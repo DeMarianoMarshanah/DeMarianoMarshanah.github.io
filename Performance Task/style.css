@@ -1,3 +1,14 @@
+body{
+  background:#D7A9E3FF;
+  font-family: verdana;
+  text-transformation: uppercase;
+}
+h2{
+   font-family: courier;
+   font-size: 20px;
+   text-transformation:uppercase;
+}
+
 * {
   padding: 10;
   margin: 10;
