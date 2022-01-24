@@ -18,4 +18,8 @@ background-color: #D7A9E3FF;
   padding: 10;
   margin: 10;
 }
+header{
+  height: 200px
+  background-color: darkviolet;
+}
 
